@@ -132,51 +132,6 @@
           "url": "https://doi.org/10.1016/j.ijhcs.2026.103793"
         }
       ]
-    },
-    {
-      "title": "Usability Study of Museum Website Based on Analytic Hierarchy Process: A Case of Foshan Museum Website",
-      "image": "./assets/museum-website-hierarchy.png",
-      "imageAlt": "Side-by-side comparison of the Foshan Museum website hierarchy before and after the usability redesign.",
-      "imageLabel": "Figure 4 · Website hierarchy redesign",
-      "authors": [
-        "Yiteng Sun",
-        "Zhelin Li",
-        "Zhen Liu"
-      ],
-      "year": 2022,
-      "venue": "HCII",
-      "publication": "HCI International, pp. 504–525",
-      "url": "https://doi.org/10.1007/978-3-031-05897-4_35",
-      "links": [
-        {
-          "label": "Paper ↗",
-          "url": "https://doi.org/10.1007/978-3-031-05897-4_35"
-        }
-      ]
-    },
-    {
-      "title": "Assessing Deception in Questionnaire Surveys With Eye-Tracking",
-      "image": "./assets/eye-tracking-heatmap.png",
-      "imageAlt": "Eye-tracking heatmaps comparing lying and truthful responses in the two questionnaire studies.",
-      "imageLabel": "Figure 4 · Eye-tracking heatmaps",
-      "authors": [
-        "Xinyue Fang",
-        "Yiteng Sun",
-        "Xinyi Zheng",
-        "Xinrong Wang",
-        "Xuemei Deng",
-        "Mei Wang"
-      ],
-      "year": 2021,
-      "venue": "FRONTIERS",
-      "publication": "Frontiers in Psychology, 12, 774961",
-      "url": "https://doi.org/10.3389/fpsyg.2021.774961",
-      "links": [
-        {
-          "label": "Paper ↗",
-          "url": "https://doi.org/10.3389/fpsyg.2021.774961"
-        }
-      ]
     }
   ],
   "education": [
