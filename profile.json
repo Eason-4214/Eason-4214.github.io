@@ -1,0 +1,195 @@
+{
+  "language": "en",
+  "name": "Yiteng Sun",
+  "nativeName": "Eason",
+  "role": "Ph.D. Student",
+  "affiliation": "The Hong Kong Polytechnic University",
+  "affiliationUrl": "https://www.polyu.edu.hk/",
+  "location": "Hong Kong",
+  "portrait": "./assets/yiteng-sun.jpg",
+  "email": "23036356r@connect.polyu.hk",
+  "links": [
+    {
+      "label": "Google Scholar",
+      "url": "https://scholar.google.com.hk/citations?hl=en&user=3geRfRAAAAAJ"
+    },
+    {
+      "label": "ORCID",
+      "url": "https://orcid.org/0009-0000-3113-9513"
+    }
+  ],
+  "about": [
+    "I am a Ph.D. student at The Hong Kong Polytechnic University. My research focuses on human–computer interaction, human factors, and autonomous driving.",
+    "I study how people perceive, evaluate, and interact with intelligent systems. My work spans driver situation awareness, human–AI judgment, and AI-assisted user experience design, combining behavioral experiments, usability evaluation, and eye-tracking.",
+    "Before joining PolyU, I received my master’s degree in Information and Interaction Design from South China University of Technology and my bachelor’s degree in Industrial Design from Sichuan University."
+  ],
+  "interests": [
+    "Human–Computer Interaction",
+    "Human Factors",
+    "Autonomous Driving"
+  ],
+  "news": [
+    {
+      "date": "2026-09",
+      "text": "Our MAUX paper is published in ",
+      "linkText": "Advanced Engineering Informatics",
+      "url": "https://doi.org/10.1016/j.aei.2026.104715",
+      "suffix": "."
+    },
+    {
+      "date": "2026-04",
+      "text": "Our paper “From Expectation to Evaluation” appears in the proceedings of ",
+      "linkText": "CHI 2026",
+      "url": "https://doi.org/10.1145/3772318.3790492",
+      "suffix": "."
+    },
+    {
+      "date": "2026-04",
+      "text": "Our ARHUD paper is published in ",
+      "linkText": "International Journal of Human-Computer Studies",
+      "url": "https://doi.org/10.1016/j.ijhcs.2026.103793",
+      "suffix": "."
+    }
+  ],
+  "publications": [
+    {
+      "title": "From Expectation to Evaluation: Expectation Cues Systematically Bias LLM and Human Judgment",
+      "image": "./assets/chi-expectation-cues.png?v=606ee9e2d7",
+      "imageAlt": "Illustration of expectation cues influencing human and LLM evaluations, from Figure 1 of the paper.",
+      "imageLabel": "Figure 1 · Expectation cues",
+      "authors": [
+        "Yiteng Sun",
+        "Danica Dillion",
+        "Kurt Gray",
+        "Mengtao Lyu",
+        "Zhuorui Zhang",
+        "Fan Li"
+      ],
+      "year": 2026,
+      "venue": "CHI",
+      "publication": "Proceedings of the CHI Conference on Human Factors in Computing Systems",
+      "url": "https://doi.org/10.1145/3772318.3790492",
+      "links": [
+        {
+          "label": "Paper ↗",
+          "url": "https://doi.org/10.1145/3772318.3790492"
+        },
+        {
+          "label": "Preprint ↗",
+          "url": "https://drive.google.com/file/d/1_Kz_mKGaDxaavW5Bzce_zzR46Sx0PvzT/view"
+        }
+      ]
+    },
+    {
+      "title": "Everyone is a product manager: MAUX, a multi-agent framework for democratized user experience design",
+      "image": "./assets/maux-architecture.png?v=465957ab12",
+      "imageAlt": "MAUX overview mapping fragmented UX design tools to five agent-driven design layers, coordinated by a meta-agent with conflict resolution.",
+      "imageLabel": "Figure 1 · MAUX overview",
+      "authors": [
+        "Yiteng Sun",
+        "Fan Li",
+        "Danni Chang",
+        "Zhuorui Zhang"
+      ],
+      "year": 2026,
+      "venue": "AEI",
+      "publication": "Advanced Engineering Informatics, 74, 104715",
+      "url": "https://doi.org/10.1016/j.aei.2026.104715",
+      "links": [
+        {
+          "label": "Paper ↗",
+          "url": "https://doi.org/10.1016/j.aei.2026.104715"
+        },
+        {
+          "label": "Preprint ↗",
+          "url": "https://drive.google.com/file/d/1R7itjuSaCWGAq4nmQ77C2ypPyZDvnrAU/view"
+        }
+      ]
+    },
+    {
+      "title": "ARHUD design for dynamic spatial information presentation to improve driver situation awareness of blind spots",
+      "image": "./assets/arhud-spatial-design.png?v=6813fef5ac",
+      "imageAlt": "ARHUD concept mapping vehicle blind spots to the windshield with color-coded distance information.",
+      "imageLabel": "Figure 4 · Spatial information design",
+      "authors": [
+        "Yiteng Sun",
+        "Donglin Li",
+        "Su Han",
+        "Mengtao Lyu",
+        "Fan Li"
+      ],
+      "year": 2026,
+      "venue": "IJHCS",
+      "publication": "International Journal of Human-Computer Studies, 211, 103793",
+      "url": "https://doi.org/10.1016/j.ijhcs.2026.103793",
+      "links": [
+        {
+          "label": "Paper ↗",
+          "url": "https://doi.org/10.1016/j.ijhcs.2026.103793"
+        }
+      ]
+    },
+    {
+      "title": "Usability Study of Museum Website Based on Analytic Hierarchy Process: A Case of Foshan Museum Website",
+      "image": "./assets/museum-website-hierarchy.png",
+      "imageAlt": "Side-by-side comparison of the Foshan Museum website hierarchy before and after the usability redesign.",
+      "imageLabel": "Figure 4 · Website hierarchy redesign",
+      "authors": [
+        "Yiteng Sun",
+        "Zhelin Li",
+        "Zhen Liu"
+      ],
+      "year": 2022,
+      "venue": "HCII",
+      "publication": "HCI International, pp. 504–525",
+      "url": "https://doi.org/10.1007/978-3-031-05897-4_35",
+      "links": [
+        {
+          "label": "Paper ↗",
+          "url": "https://doi.org/10.1007/978-3-031-05897-4_35"
+        }
+      ]
+    },
+    {
+      "title": "Assessing Deception in Questionnaire Surveys With Eye-Tracking",
+      "image": "./assets/eye-tracking-heatmap.png",
+      "imageAlt": "Eye-tracking heatmaps comparing lying and truthful responses in the two questionnaire studies.",
+      "imageLabel": "Figure 4 · Eye-tracking heatmaps",
+      "authors": [
+        "Xinyue Fang",
+        "Yiteng Sun",
+        "Xinyi Zheng",
+        "Xinrong Wang",
+        "Xuemei Deng",
+        "Mei Wang"
+      ],
+      "year": 2021,
+      "venue": "FRONTIERS",
+      "publication": "Frontiers in Psychology, 12, 774961",
+      "url": "https://doi.org/10.3389/fpsyg.2021.774961",
+      "links": [
+        {
+          "label": "Paper ↗",
+          "url": "https://doi.org/10.3389/fpsyg.2021.774961"
+        }
+      ]
+    }
+  ],
+  "education": [
+    {
+      "period": "2023–present",
+      "institution": "The Hong Kong Polytechnic University",
+      "degree": "Ph.D. student · PolyU Presidential PhD Fellowship"
+    },
+    {
+      "period": "2020–2023",
+      "institution": "South China University of Technology",
+      "degree": "Master of Information and Interaction Design"
+    },
+    {
+      "period": "2016–2020",
+      "institution": "Sichuan University",
+      "degree": "Bachelor of Industrial Design"
+    }
+  ]
+}
