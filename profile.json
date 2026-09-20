@@ -16,6 +16,10 @@
     {
       "label": "ORCID",
       "url": "https://orcid.org/0009-0000-3113-9513"
+    },
+    {
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/yiteng-sun-5bb1ba393/"
     }
   ],
   "about": [
@@ -192,5 +196,6 @@
       "degree": "Bachelor of Industrial Design"
     }
   ],
-  "googleSiteVerification": "Boylmst7uHBt8NoxWngJz7_gjjPywgI8D0AG0AATjbI"
+  "googleSiteVerification": "Boylmst7uHBt8NoxWngJz7_gjjPywgI8D0AG0AATjbI",
+  "cv": "./assets/CV_Yiteng_Sun.pdf"
 }

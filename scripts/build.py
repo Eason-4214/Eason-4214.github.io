@@ -4,6 +4,8 @@ from pathlib import Path
 from html import escape
 from urllib.parse import urlsplit
 import json
+from hashlib import sha256
+import struct
 
 ROOT = Path(__file__).resolve().parents[1]
 BASE = 'https://eason-4214.github.io/'
@@ -47,7 +49,9 @@ for paper in p['publications']:
     if paper.get('image'):
         src = e(paper['image'])
         alt = e(paper['imageAlt'])
-        figure = f'<a class="paper-figure" href="{src}" target="_blank" rel="noopener" title="Open full-size figure" aria-label="Open full-size figure: {alt} (new tab)"><img src="{src}" alt="{alt}" loading="lazy" decoding="async" width="640" height="480"><span class="figure-label">{e(paper["imageLabel"])}</span></a>'
+        image_path = ROOT / urlsplit(paper['image']).path
+        image_width, image_height = struct.unpack('>II', image_path.read_bytes()[16:24])
+        figure = f'<a class="paper-figure" href="{src}" target="_blank" rel="noopener" title="Open full-size figure" aria-label="Open full-size figure: {alt} (new tab)"><img src="{src}" alt="{alt}" loading="lazy" decoding="async" width="{image_width}" height="{image_height}"><span class="figure-label">{e(paper["imageLabel"])}</span></a>'
     body = f'<div class="paper-top"><span class="venue">{e(paper["venue"])}</span><span class="year">{e(paper["year"])}</span></div>'
     body += '<h3 class="paper-title">' + link(paper['title'], paper['url']) + '</h3>'
     authors = ', '.join(f'<strong>{e(a)}</strong>' if a == p['name'] else e(a) for a in paper['authors'])
@@ -74,6 +78,8 @@ title = 'Yiteng Sun (Eason) | Human–Computer Interaction | PolyU'
 description = 'Yiteng Sun (Eason), Ph.D. student at The Hong Kong Polytechnic University. Research in human–computer interaction, human factors, and autonomous driving.'
 verification = p.get('googleSiteVerification','')
 verification_meta = f'<meta name="google-site-verification" content="{e(verification)}">' if verification else ''
+style_version = sha256((ROOT / 'style.css').read_bytes()).hexdigest()[:10]
+cv_link = f'<a href="{e(p["cv"])}" target="_blank" rel="noopener" aria-label="CV (PDF, opens in a new tab)">CV</a>' if p.get('cv') else ''
 html = f'''<!doctype html>
 <html lang="en">
 <head>
@@ -92,7 +98,7 @@ html = f'''<!doctype html>
   <meta property="profile:last_name" content="Sun">
   {verification_meta}
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
-  <link rel="stylesheet" href="./style.css">
+  <link rel="stylesheet" href="./style.css?v={style_version}">
   <script type="application/ld+json">{schema_json}</script>
 </head>
 <body>
@@ -100,7 +106,7 @@ html = f'''<!doctype html>
   <div class="shell">
     <header class="topbar">
       <a class="wordmark" href="./" aria-label="Home"><span class="mark" aria-hidden="true">Y</span><span>Yiteng Sun</span></a>
-      <nav aria-label="Main navigation"><a href="#about">About</a><a href="#news">News</a><a href="#publications">Publications</a><a href="#contact">Contact</a></nav>
+      <nav aria-label="Main navigation"><a href="#about">About</a><a href="#news">News</a><a href="#publications">Publications</a><a href="#contact">Contact</a>{cv_link}</nav>
     </header>
     <div class="layout">
       <aside class="profile" aria-label="Profile">{profile}</aside>

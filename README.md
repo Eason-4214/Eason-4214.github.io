@@ -28,4 +28,4 @@ Add the public homepage URL to your Google Scholar profile, ORCID website links,
 
 ## Images
 
-See `ASSET_SOURCES.md`. Image rights remain with their respective owners. Source PDFs and private CV files are not included.
+See `ASSET_SOURCES.md`. Image rights remain with their respective owners. The CV linked in the top navigation is the owner-provided PDF in `assets/CV_Yiteng_Sun.pdf`. Publication source PDFs are not included.
