@@ -152,5 +152,31 @@
     }
   ],
   "googleSiteVerification": "Boylmst7uHBt8NoxWngJz7_gjjPywgI8D0AG0AATjbI",
-  "cv": "./assets/CV_Yiteng_Sun.pdf"
+  "cv": "./assets/CV_Yiteng_Sun.pdf",
+  "awards": [
+    {
+      "year": 2023,
+      "title": "PolyU Presidential PhD Fellowship (Top 5%)"
+    },
+    {
+      "year": 2020,
+      "title": "First Prize Scholarship for Postgraduates, South China University of Technology"
+    },
+    {
+      "year": 2020,
+      "title": "Outstanding Graduate of Sichuan University"
+    },
+    {
+      "year": 2017,
+      "title": "National Inspirational Scholarship (Top 3%), Ministry of Education of PRC"
+    },
+    {
+      "year": 2018,
+      "title": "Excellent Student Scholarship, Sichuan University"
+    },
+    {
+      "year": 2018,
+      "title": "First Prize Scholarship for Undergraduate, Sichuan University"
+    }
+  ]
 }
