@@ -61,6 +61,9 @@ for paper in p['publications']:
 scholar = next(x['url'] for x in p['links'] if x['label'] == 'Google Scholar')
 content += section('publications', 'Selected publications', papers, link('All publications ↗', scholar, 'aside-link'))
 
+education = ''.join(f'<div class="entry"><span class="year">{e(x["period"])}</span><div><h3>{e(x["institution"])}</h3><p>{e(x["degree"])}</p></div></div>' for x in p['education'])
+content += section('education', 'Education', education)
+
 if p.get('awards'):
     awards = '<ul class="awards-list">' + ''.join(
         f'<li class="award"><time datetime="{e(x["year"])}">{e(x["year"])}</time><span>{e(x["title"])}</span></li>'
@@ -68,8 +71,6 @@ if p.get('awards'):
     ) + '</ul>'
     content += section('awards', 'Honors &amp; Awards', awards)
 
-education = ''.join(f'<div class="entry"><span class="year">{e(x["period"])}</span><div><h3>{e(x["institution"])}</h3><p>{e(x["degree"])}</p></div></div>' for x in p['education'])
-content += section('education', 'Education', education)
 content += section('contact', 'Contact', f'<p class="contact-copy">{e(p["affiliation"])}</p>' + link(p['email'], 'mailto:' + p['email'], 'contact-email'))
 
 person = {
