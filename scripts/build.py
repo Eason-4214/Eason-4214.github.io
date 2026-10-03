@@ -88,6 +88,8 @@ verification = p.get('googleSiteVerification','')
 verification_meta = f'<meta name="google-site-verification" content="{e(verification)}">' if verification else ''
 style_version = sha256((ROOT / 'style.css').read_bytes()).hexdigest()[:10]
 cv_link = f'<a href="{e(p["cv"])}" target="_blank" rel="noopener" aria-label="CV (PDF, opens in a new tab)">CV</a>' if p.get('cv') else ''
+bing_verification = p.get('bingSiteVerification', '')
+bing_verification_meta = f'<meta name="msvalidate.01" content="{e(bing_verification)}">' if bing_verification else ''
 html = f'''<!doctype html>
 <html lang="en">
 <head>
@@ -105,6 +107,7 @@ html = f'''<!doctype html>
   <meta property="profile:first_name" content="Yiteng">
   <meta property="profile:last_name" content="Sun">
   {verification_meta}
+  {bing_verification_meta}
   <link rel="icon" type="image/svg+xml" href="./favicon.svg">
   <link rel="stylesheet" href="./style.css?v={style_version}">
   <script type="application/ld+json">{schema_json}</script>
