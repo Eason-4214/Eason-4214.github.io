@@ -71,6 +71,13 @@ if p.get('awards'):
     ) + '</ul>'
     content += section('awards', 'Honors &amp; Awards', awards)
 
+if p.get('service'):
+    service = '<ul class="service-list">' + ''.join(
+        f'<li><span class="service-role">{e(x["role"])}</span> · {e(x["venue"])}</li>'
+        for x in p['service']
+    ) + '</ul>'
+    content += section('service', 'Service', service)
+
 content += section('contact', 'Contact', f'<p class="contact-copy">{e(p["affiliation"])}</p>' + link(p['email'], 'mailto:' + p['email'], 'contact-email'))
 
 person = {
@@ -83,7 +90,7 @@ person = {
 schema = {'@context':'https://schema.org','@type':'ProfilePage','@id':BASE+'#profile','url':BASE,'name':'Yiteng Sun — Academic Homepage','mainEntity':person}
 schema_json = json.dumps(schema,ensure_ascii=False,indent=2).replace('<','\\u003c')
 title = 'Yiteng Sun (Eason) | Human–Computer Interaction | PolyU'
-description = 'Yiteng Sun (Eason), Ph.D. student at The Hong Kong Polytechnic University. Research in human–computer interaction, human factors, and autonomous driving.'
+description = 'Yiteng Sun (Eason), Ph.D. candidate at The Hong Kong Polytechnic University. Research in human–computer interaction, human factors, and autonomous driving.'
 verification = p.get('googleSiteVerification','')
 verification_meta = f'<meta name="google-site-verification" content="{e(verification)}">' if verification else ''
 style_version = sha256((ROOT / 'style.css').read_bytes()).hexdigest()[:10]

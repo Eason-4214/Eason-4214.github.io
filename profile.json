@@ -2,7 +2,7 @@
   "language": "en",
   "name": "Yiteng Sun",
   "nativeName": "Eason",
-  "role": "Ph.D. Student",
+  "role": "Ph.D. Candidate",
   "affiliation": "The Hong Kong Polytechnic University",
   "affiliationUrl": "https://www.polyu.edu.hk/",
   "location": "Hong Kong",
@@ -23,7 +23,7 @@
     }
   ],
   "about": [
-    "I am a Ph.D. student at The Hong Kong Polytechnic University. My research focuses on human–computer interaction, human factors, and autonomous driving.",
+    "I am a Ph.D. candidate at The Hong Kong Polytechnic University. My research focuses on human–computer interaction, human factors, and autonomous driving.",
     "I study how people perceive, evaluate, and interact with intelligent systems. My work spans driver situation awareness, human–AI judgment, and AI-assisted user experience design, combining behavioral experiments, usability evaluation, and eye-tracking.",
     "Before joining PolyU, I received my master’s degree in Information and Interaction Design from South China University of Technology and my bachelor’s degree in Industrial Design from Sichuan University."
   ],
@@ -138,7 +138,7 @@
     {
       "period": "2023–present",
       "institution": "The Hong Kong Polytechnic University",
-      "degree": "Ph.D. student · PolyU Presidential PhD Fellowship"
+      "degree": "Ph.D. candidate · PolyU Presidential PhD Fellowship"
     },
     {
       "period": "2020–2023",
@@ -179,5 +179,15 @@
       "title": "First Prize Scholarship for Undergraduate, Sichuan University"
     }
   ],
-  "bingSiteVerification": "0A9C691808CB74085DBAB1D41B2082A6"
+  "bingSiteVerification": "0A9C691808CB74085DBAB1D41B2082A6",
+  "service": [
+    {
+      "role": "Reviewer",
+      "venue": "Advanced Engineering Informatics"
+    },
+    {
+      "role": "Reviewer",
+      "venue": "CHI 2027"
+    }
+  ]
 }
