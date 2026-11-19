@@ -34,6 +34,13 @@
   ],
   "news": [
     {
+      "date": "2026-11",
+      "text": "Our correspondence “When AI-assisted criticism scales, peer review needs an obligation threshold” is published in ",
+      "linkText": "Nature Machine Intelligence",
+      "url": "https://www.nature.com/articles/s42256-026-01349-y",
+      "suffix": "."
+    },
+    {
       "date": "2026-09",
       "text": "Our MAUX paper is published in ",
       "linkText": "Advanced Engineering Informatics",
@@ -56,6 +63,28 @@
     }
   ],
   "publications": [
+    {
+      "title": "When AI-assisted criticism scales, peer review needs an obligation threshold",
+      "image": "./assets/nmi-obligation-threshold-title.png",
+      "imageAlt": "Title, authors and publication details of When AI-assisted criticism scales, peer review needs an obligation threshold on the Nature Machine Intelligence article page.",
+      "imageLabel": "Article title · Nature Machine Intelligence",
+      "authors": [
+        "Yiteng Sun",
+        "Fan Li",
+        "Ching-Hung Lee",
+        "Chun-Hsien Chen"
+      ],
+      "year": 2026,
+      "venue": "Nature Machine Intelligence",
+      "publication": "Nature Machine Intelligence · Correspondence",
+      "url": "https://www.nature.com/articles/s42256-026-01349-y",
+      "links": [
+        {
+          "label": "Paper ↗",
+          "url": "https://www.nature.com/articles/s42256-026-01349-y"
+        }
+      ]
+    },
     {
       "title": "From Expectation to Evaluation: Expectation Cues Systematically Bias LLM and Human Judgment",
       "image": "./assets/chi-expectation-cues.png?v=606ee9e2d7",

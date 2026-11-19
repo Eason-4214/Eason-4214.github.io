@@ -11,3 +11,5 @@ The CHI, MAUX, and ARHUD images were replaced with the owner's supplied PNGs on 
 | `arhud-spatial-design.png` | 4: ARHUD spatial mapping | Owner-supplied PNG | https://doi.org/10.1016/j.ijhcs.2026.103793 |
 | `museum-website-hierarchy.png` | 4: Website hierarchy before and after redesign | 17 | https://doi.org/10.1007/978-3-031-05897-4_35 |
 | `eye-tracking-heatmap.png` | 4: Lying and honesty heatmaps | 11 | https://doi.org/10.3389/fpsyg.2021.774961 |
+
+- `assets/nmi-obligation-threshold-title.png`: screenshot of the title, authors and publication details on https://www.nature.com/articles/s42256-026-01349-y, captured 2026-11-19.
